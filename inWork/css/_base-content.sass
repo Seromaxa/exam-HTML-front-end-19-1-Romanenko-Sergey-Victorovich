@@ -1,0 +1,669 @@
+.sec-header
+    margin-top: 4%
+    margin-bottom: 3%
+    
+    
+.sec-nav
+    font: 
+        family: $font-base
+        size: 19px
+        weight: 600
+    letter-spacing: 1px  
+    margin-top: 2.5%  
+    margin-bottom: 3%
+        
+        
+.sec-line
+    @extend %list 
+    display: flex
+    width: 50%
+    justify-content: space-around
+    margin: 0 auto
+    
+    & li:nth-child(1)
+        margin-left: 4.5%
+
+    & li:last-child
+        margin-right: 3%    
+
+    & a 
+        @extend %link
+
+.sec-first
+    display: flex
+    margin-bottom: 1.5%
+    font: 
+        family: $font-base
+    text-transform: uppercase 
+    justify-content: center
+
+.sec-cont
+    position: relative 
+    display: flex
+
+
+
+.snik, .red-g, .pux, .bag1, .ochochki
+    width: 100%    
+
+.conteiner1, .conteiner2
+    display: flex
+    flex-wrap: wrap  
+
+.conteiner1
+    width: 15% 
+
+.conteiner2
+    width: 20%  
+    margin-left: 2%
+
+.table-woman
+    width: 25% 
+    margin-left: 2%
+
+.sec-cont-info
+    @extend %list
+    position: absolute 
+
+    & li:first-child
+        font: 
+            size: 13px
+            family: $fontR
+        letter-spacing: .5px
+        text-transform: none
+    & li:nth-child(2)
+        font: 
+            family: $font-base
+            size: 18px
+            weight: bold
+        letter-spacing: .75px 
+        margin-bottom: 26%
+           
+
+
+.knlink
+    @extend %black-links
+    width: 75%
+    font-size: 9px
+    padding: 10%
+
+
+
+
+.kros
+    margin-bottom: 1% 
+    padding-bottom: 12.5%
+    margin-bottom: 8%       
+   
+.kros-sale
+    position: absolute
+    bottom: -2%
+    left: 28%
+    & p
+        margin-top: 0
+        font: 
+            size: 22px
+            weight: 800 
+        letter-spacing: 1px    
+
+.snik
+    object-fit: cover
+    object-position: 29px -22px
+
+.bag1
+    object-fit: none
+    object-position: 17px 10px    
+    
+
+.otstyp
+    margin: 0 0 0 6%
+ 
+    
+.red-g
+    width: 100%
+    height: inherit
+    object-fit: none 
+    object-position: -24px  
+
+.info-women
+    width: 34%
+    top: 5.7vw
+    left: 2.3vw  
+    & p
+        letter-spacing: 1.5px    
+
+.say
+    position: relative
+    height: fit-content
+    top: 9px
+    right: 58px
+
+.say::after
+    position: absolute
+    content: 'NEW'
+    color: white
+    font-size: 11px
+    top: 5px
+    left: 10px
+   
+.jacket-man
+    margin-right: 3%
+    width: 96%
+    // padding-bottom: 8%
+    margin-bottom: 1%
+.pux
+    object-fit: none
+    object-position: -175px -12px     
+
+.info-men
+    top: 3vw
+    left: 1.4vw
+    width: 32%  
+    & p 
+        margin-top: 10%
+    & li:nth-child(2)
+        margin-bottom: 30% 
+    & li a:last-child
+        width: 94%
+        padding: 12%       
+
+.winter
+    margin-bottom: 0   
+
+.ochochki 
+    background-color: #f8f8f8   
+    margin-top: 5%
+    width: 96%
+
+.ochochki1
+    width: 100%
+    object-fit: contain
+    margin: 0 0 4% 5%  
+
+.say2
+    position: relative 
+    height: fit-content
+    top: 13px
+    right: 39px   
+
+.say2::after
+    position: absolute
+    content: 'NEW'
+    color: white
+    font-size: 11px
+    top: 5px
+    left: 10px 
+
+.vodka
+    bottom: 1.5vw
+    left: 4vw
+    font-size: 13px
+    letter-spacing: .5px
+    font-weight: bold 
+
+.cover1
+    display: flex
+    justify-content: center    
+
+.baner-small1
+    background-image: url(../images/blueBaner2.png)
+    background-position: 7px
+    width: 61.5%
+    margin: 0 auto
+    margin-bottom: 5%
+    display: flex
+    justify-content: flex-end
+    align-items: center
+
+
+.baner-inform
+    @extend %list
+    margin: 2.7% 12.5% 3% 0
+    font-family: $font-base
+    text-transform: uppercase
+    & li:nth-child(1)
+        font: 
+            size: 26px
+            weight: 600
+        letter-spacing: 2px
+
+
+    & li:nth-child(2)
+        font: 
+            size: 13px
+            weight: 400
+        letter-spacing: 6px
+        text-align: center
+
+.bklink
+    @extend %link
+    @extend %link2
+    width: 50%
+    background-color: white
+    margin-left: 24%
+    padding: 5%
+     
+
+.product
+    font-family: $font-base
+    text-transform: uppercase
+    padding-top: .5%
+
+.prod
+    text-align: center
+    font-size: 26px
+    letter-spacing: 1.5px
+    margin: 0 0 0 3%
+    text-transform: uppercase
+        
+
+
+.up-to
+    text-transform: none
+    text-align: center
+    font-size: 14px
+    letter-spacing: 4px 
+    margin-top: 1.2%
+    margin-bottom: 2.3%   
+
+
+.we-offer
+    margin-bottom: 1%
+.sing-up
+    margin-bottom: 6%
+
+.pt-cover
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    // padding: 0 10% 0 10.5%
+    margin-bottom: 1.5%
+
+
+.forlink
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+    margin-bottom: 4.8%
+
+
+
+.pt-conteiner
+    @extend %list
+    width: 70%
+    display: flex
+    justify-content: center
+   
+    
+    & li
+        width: 29%
+
+    // & li:last-child
+    //     margin-right: 1%    
+
+
+
+.pt-men, .pt-women, .pt-kids
+    position: relative
+    height: 100%
+    & img
+        width: 108.5%
+        height: inherit
+
+.pic-pt-men
+    width: 100%
+    object-fit: none
+    object-position: -29px -6px
+
+.pic-pt-women
+    width: 100%
+    object-fit: none
+    object-position: 8px 0
+
+.pic-pt-kids
+    width: 100%
+    object-fit: none
+    object-position: 42px -1px
+
+.pt-link
+    position: absolute
+    font-size: 13px
+    @extend %black-links
+    width: 47.5%    
+    padding: 5.5% 
+
+.pt-link-pos1  
+    bottom: 5.8vw
+    left: 5.4vw  
+
+.pt-link-pos2
+    bottom: 5.8vw
+    left: 5.9vw 
+
+
+.pt-link-pos3   
+    bottom: 5.8vw
+    left: 6.4vw      
+
+.pt-aside-link
+    font-size: 14px
+    width: 46px
+    height: 115px
+    text-decoration: none
+    color: inherit
+    display: flex
+    justify-content: center
+    align-items: center
+    background-color: #d7d7d7
+    writing-mode: vertical-rl
+    transform: rotate(-180deg)
+
+.position3
+    margin: 0 0 4% 0 
+
+.position4
+    margin: 0 0 4% 1%      
+
+
+.featured-product
+    font-family: $font-base
+    & .prod
+        text-transform: uppercase
+
+.pt-cover1
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center
+   
+
+.threangle
+    width: 49px
+    height: 49px
+    border: 3px solid #d9d9d9
+    border-radius: 50%
+    display: flex
+    justify-content: center
+    align-items: center   
+    background-color: #d7d7d7
+
+// .left
+//     margin: 0 0 5% 14%
+
+// .right
+//     margin: 0 14.2% 4.2% 0 
+
+
+.card-holder 
+    width: 65%
+    display: flex
+    justify-content: space-between
+  
+.card
+    @extend %list
+    width: 22%
+    display: flex
+    flex-direction: column
+    & li
+        width: 100%
+        margin: 0 2%
+    & li img
+        width: 100%
+        height: inherit
+        vertical-align: middle 
+        object-fit: none
+    & li:nth-child(1)
+        height: 389px 
+
+.card-left
+    margin-left: 3%
+
+.card-rigt
+    margin-right: 2%            
+
+
+.pic-fp-women3
+    object-position: -20px -7px
+
+.pic-fp-women2
+    object-position: 7px    
+
+.fp-ansv
+    margin: 10% 0 0 0 
+    font-size: 14px
+    font-weight: 600
+    letter-spacing: .5px   
+    
+.lable
+    margin: 2% 0 2% 0
+
+.fp-big
+    margin-left: 3%    
+
+.left1
+    margin: 0 0 3% 13.5%    
+
+.right1
+    margin: 0 14% 2.2% 0         
+
+.fp-link
+    text-align: center
+    text-decoration: none
+    color: inherit
+    border: 2px solid black
+    border-radius: 30px
+    width: 9%
+    padding: 1%
+    margin-top: 2.5%
+    margin-left: 1%
+    text-transform: uppercase
+    font-size: 12px 
+
+.baner-inform2
+    @extend %list
+    font-family: $font-base
+    text-transform: uppercase
+    margin-right: 1%
+    padding-top: 2%
+    & li:nth-child(1)
+        font: 
+            size: 26px
+            weight: 600
+        letter-spacing: 2px
+
+
+    & li:nth-child(2)
+        font: 
+            size: 13px
+            weight: 400
+        letter-spacing: 8.5px
+        text-align: center
+.baner-small2
+    width: 61.5%  
+    margin: 0 auto 5%
+    display: flex
+    justify-content: flex-end
+    max-height: 250px
+    background-color: #d7dbd5  
+
+.second-small-baner
+    object-fit: none
+    margin-right: 10%
+    object-position: -8px -37px  
+
+
+.black-bklink
+    background-color: black
+    color: white 
+    width: 40%
+    margin-left: 32%
+
+// .position2
+//     left: 6.2vw
+//     bottom: 2vw
+
+
+.prod1
+    text-align: center
+    font-size: 26px
+    letter-spacing: 2px
+    margin: 0 0 0 1%
+    text-transform: uppercase    
+
+.section-holder
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+    position: relative
+    width: 100%
+    padding-top: 18%
+
+.foto-holder
+    position: absolute
+    width: 100%
+    display: flex
+    justify-content: center
+    align-items: center 
+    margin-top: 3% 
+    top: 0  
+
+
+.left-margin
+    margin-left: 15%
+    margin-right: 2%
+
+.right-margin
+    margin-right: 15%
+    margin-left: 2%    
+
+
+.foto1
+    position: relative
+    width: 30%
+    max-height: 381px
+
+.position-left
+    margin-left: 2%  
+
+.foto-inf
+    position: absolute  
+    width: 88.8%
+    height: 20%
+    bottom: -11%
+    left: 6.9%
+    background-color: white 
+
+.bl-head
+    text-align: center
+    letter-spacing: .6px
+    margin: 4% 0 0 5%
+    text-transform: uppercase
+
+.bl-date
+    text-align: center   
+    margin: .8% 6% 0 0           
+    
+
+.pic-bl
+    width: 100%
+    max-height: 381px
+
+.foto-position1    
+    object-fit: none
+   
+
+
+.foto-position2  
+    object-fit: none
+    object-position: -7px -7px  
+
+.sec-footer
+    font-family: $font-base
+    display: flex
+    justify-content: center
+    padding-bottom: 5%
+    padding-top: 12.5%
+    background-color: #f8f8f8
+    width: 100%
+
+.f-list
+    @extend %list 
+    width: 12%   
+    & li
+        margin-bottom: 5%
+    & li:nth-child(1)
+        text-transform: uppercase
+        font-size: 15px
+        margin-bottom: 17%
+
+    & a
+        @extend %link 
+        color: #959FB0
+        font-size: 14px
+
+.adress
+    width: 13%
+
+.a-head
+    margin-top: 1%
+    margin-left: 8%
+    letter-spacing: -0.5px
+    margin-bottom: 14%
+    text-transform: uppercase
+
+.re
+    font-size: 14px
+    margin-left: 9%    
+
+.last-section
+    font-family: $font-base
+
+.cet
+    text-align: center  
+    margin-left: 3.8%
+    margin-bottom: 2%
+    margin-top: 1.7%
+    font-size: 13px
+    letter-spacing: .8px  
+    
+.logo2
+    width: 8%
+    text-transform: uppercase
+    margin: 0 auto
+
+.fasion1
+    text-align: center
+    font-weight: 800
+    font-size: 28px
+    margin: 0
+
+.tagline1
+    margin: 0
+    font-size: 10px
+    text-align: center        
+
+.hiden-for-valid
+    display: none  
+
+   
+
+
+
+
+
+
+   
+
+   
+
+
+
+    
+
+                 
+              
+
+
+    
