@@ -54,13 +54,16 @@
 
     .kros-sale
         width: 100%
-               
+
+    .logo2
+        width: 25%    
+                
 
 
 
 @media screen and (max-width: 1400px)
    
-    .kros-sale 
+    .kros-sale  
         left: 8%
         & p
             text-align: center   
@@ -210,7 +213,7 @@
         margin-top: 3%
 
     .blac-button
-        margin-top: 8%
+        margin-top: 5%
 
     .clock
         & li 
@@ -220,6 +223,7 @@
         bottom: -2.4vw
 
     .houer::after, .minutes::after, .seconds::after
+        font-size: 8px
         bottom: -4.7vw
 
     .info-women
@@ -276,6 +280,16 @@
             margin: 4% 4%
 
 
+    .controls
+        top: 6vw
+        right: 6vw    
+
+
+    .pt-conteiner
+        & li:nth-child(3)
+            display: none         
+
+
 
 @media screen and (max-width: 700px)  
     .style1500
@@ -293,6 +307,8 @@
     .second-small-baner
         width: 38%
         margin: 0
+        object-fit: cover
+        object-position: 0
 
     .letter-links
         margin-left: 0
@@ -308,3 +324,76 @@
 
     .sec-line
         flex-wrap: wrap        
+
+
+
+@media screen and (max-width: 540px)  
+
+    .logo
+        width: 27%
+
+    .first-head-nav
+        flex-wrap: wrap
+
+    .letter-links
+        width: 90%
+        margin-left: 21px
+
+    .holder
+        flex-direction: column
+        padding-bottom: 50%                   
+
+
+    .social
+        width: 100%
+        background-color: transparent 
+        order: 1
+
+    .join-to-us
+        width: 90%
+        align-items: center
+        margin-top: 3%
+        flex-direction: row-reverse
+        & li:last-child
+            writing-mode: horizontal-tb
+            transform: none
+
+    .lozung
+        margin-top: 3%            
+
+    .description
+        width: 95%       
+    .blac-button
+        padding: 3%
+
+    .second-element 
+        right: 19%
+        width: 60%
+        background-image: url(../images/backgroundSecondGirl.png)       
+        justify-content: center 
+
+    .baner-small1
+        margin-bottom: 10%
+
+    .baner-inform
+        margin: 0
+
+    .bklink
+        margin-bottom: 8%
+
+
+    .pt-conteiner
+        & li 
+            width: 70%
+
+    .sec-line
+        & li
+            margin: 5% 3%    
+
+
+    .card
+        width: 70%
+
+    .houer::after, .minutes::after, .seconds::after
+        font-size: 8px
+        left: -3.4vw                
